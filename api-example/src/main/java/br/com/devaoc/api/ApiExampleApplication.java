@@ -1,13 +1,13 @@
-package br.com.devaoc.api.apiexemple;
+package br.com.devaoc.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiExempleApplication {
+public class ApiExampleApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiExempleApplication.class, args);
+		SpringApplication.run(ApiExampleApplication.class, args);
 	}
 
 }
