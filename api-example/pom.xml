@@ -8,10 +8,10 @@
 		<version>2.1.7.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.devaoc.api</groupId>
+	<groupId>br.com.devaoc</groupId>
 	<artifactId>api-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api-exemple</name>
+	<name>api-example</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
