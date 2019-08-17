@@ -1,4 +1,4 @@
-package br.com.devaoc.api.model;
+package br.com.devaoc.core.model;
 
 import lombok.*;
 

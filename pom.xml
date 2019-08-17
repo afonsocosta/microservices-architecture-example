@@ -19,9 +19,11 @@
 
     <modules>
         <module>api-example</module>
+        <module>core</module>
     </modules>
 
     <dependencies>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>

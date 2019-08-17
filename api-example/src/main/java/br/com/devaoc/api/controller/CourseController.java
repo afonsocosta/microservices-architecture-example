@@ -1,7 +1,7 @@
 package br.com.devaoc.api.controller;
 
-import br.com.devaoc.api.model.Course;
 import br.com.devaoc.api.service.CourseService;
+import br.com.devaoc.core.model.Course;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

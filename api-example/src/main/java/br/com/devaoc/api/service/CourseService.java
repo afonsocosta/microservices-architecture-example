@@ -1,11 +1,10 @@
 package br.com.devaoc.api.service;
 
-import br.com.devaoc.api.model.Course;
-import br.com.devaoc.api.repository.CourseRepository;
+import br.com.devaoc.core.model.Course;
+import br.com.devaoc.core.repository.CourseRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
