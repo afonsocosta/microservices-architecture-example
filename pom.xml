@@ -16,12 +16,14 @@
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
+        <nimbus-jose.version>7.0</nimbus-jose.version>
     </properties>
 
     <modules>
         <module>api-example</module>
         <module>core</module>
         <module>discovery</module>
+        <module>api-gateway</module>
     </modules>
 
     <dependencies>
@@ -34,6 +36,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
 
         <dependency>
@@ -57,6 +64,12 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.nimbusds</groupId>
+            <artifactId>nimbus-jose-jwt</artifactId>
+            <version>${nimbus-jose.version}</version>
+        </dependency>
+
     </dependencies>
 
     <dependencyManagement>
