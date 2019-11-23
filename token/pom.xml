@@ -21,6 +21,7 @@
             <groupId>br.com.devaoc</groupId>
             <artifactId>core</artifactId>
             <version>${core.version}</version>
+
         </dependency>
 
         <dependency>
