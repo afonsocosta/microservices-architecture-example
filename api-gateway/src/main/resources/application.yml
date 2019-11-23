@@ -1,6 +1,7 @@
 spring:
   application:
     name: gateway
+
 server:
   port: 8080
   servlet:
@@ -16,6 +17,10 @@ eureka:
     register-with-eureka: true
 zuul:
   sensitive-headers: Cookie
+
+jwt:
+  config:
+    login-url: /auth/login
 
 
 

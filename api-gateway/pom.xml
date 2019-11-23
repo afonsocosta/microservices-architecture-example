@@ -16,12 +16,26 @@
 
 	<properties>
 		<java.version>11</java.version>
+		<core.version>1.0.0-SNAPSHOT</core.version>
+		<token.version>1.0.0-SNAPSHOT</token.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>br.com.devaoc</groupId>
+			<artifactId>token</artifactId>
+			<version>${token.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>br.com.devaoc</groupId>
+			<artifactId>core</artifactId>
+			<version>${core.version}</version>
 		</dependency>
 
 	</dependencies>
