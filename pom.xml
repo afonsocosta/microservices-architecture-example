@@ -17,16 +17,28 @@
         <java.version>11</java.version>
         <spring-cloud.version>Greenwich.SR2</spring-cloud.version>
         <nimbus-jose.version>7.0</nimbus-jose.version>
+        <commons-lang3.version>3.8.1</commons-lang3.version>
     </properties>
 
     <modules>
         <module>api-example</module>
         <module>core</module>
-        <module>discovery</module>
+        <module>token</module>
         <module>api-gateway</module>
     </modules>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
