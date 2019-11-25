@@ -29,6 +29,7 @@ public class SecurityTokenConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                     .antMatchers(jwtConfiguration.getLoginUrl()).permitAll()
                     .antMatchers("/api-example/v1/admin/**").hasRole("ADMIN")
+                    .antMatchers("/auth/user/**").hasAnyRole("ADMIN", "USER")
                     .anyRequest().authenticated();
         }
 

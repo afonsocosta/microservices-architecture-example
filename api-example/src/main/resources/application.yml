@@ -25,3 +25,7 @@ spring:
     url: jdbc:mysql://localhost:3308/devaoc?allowPublicKeyRetrieval=true&sslMode=DISABLED
     username: root
     password: admin
+
+jwt:
+  config:
+    type: signed
